@@ -11,7 +11,7 @@ dropdown.addListener('place_changed', () => {
 // if someone hits enter on the address field, don't submit the form
 
 input.on('keydown', (e) => {
-    if(e.keycode === 13 ) e.preventDefult();
+    if(e.keycode === 13 ) e.preventDefault();
 });
 
 }
